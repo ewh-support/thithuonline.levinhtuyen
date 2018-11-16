@@ -18873,7 +18873,7 @@ body.header-popup-open {
 .header .pluralsight.horizontal--logo {
 	position: relative;
 	height: 60px;
-	background-image: url(./img/xPS_logo_sm.png.pagespeed.ic.eEQvsclrho.png);
+	background-image: url(/img/logomb3.png);
 	background-repeat: no-repeat;
 	background-position: 6px 13px;
 	background-size: auto 70%
@@ -18882,22 +18882,23 @@ body.header-popup-open {
 	.header .pluralsight.horizontal--logo {
 		height: 83px;
 		margin: 0;
-		background-image: url(/img/xPS_logo.png.pagespeed.ic.Bw47ja1sXD.png);
+		background-image: url(/img/logopc.png);
 		background-size: 80% auto;
 		background-position: center center
 	}
 }
-@media only screen and (max-width:1024px) and (min-width:768px) {
+/* @media only screen and (max-width:1024px) and (min-width:768px) {
 	.header .pluralsight.horizontal--logo {
 		position: relative;
 		height: 60px;
 		width: 52px;
-		background-image: url(../../main/images/global/header/xPS_logo_sm.png.pagespeed.ic.eEQvsclrho.webp);
+		background-image: url(/img/logomb3.png);
 		background-repeat: no-repeat;
 		background-position: 6px 13px;
 		background-size: auto 70%
 	}
-}
+} */
+
 .header .pluralsight.horizontal--logo:before {
 	display: block;
 	content: "";
