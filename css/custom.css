@@ -633,6 +633,12 @@ html {
         padding: 40px 20px;
     }
 }
+@media only screen and (max-width:599px) {
+    .ps_what--content {
+        height: 500px;
+        
+    }
+}
 @media only screen and (min-width:1025px) {
     .ps_what--content {
         height: auto;
@@ -644,7 +650,7 @@ html {
     bottom: 0;
     position: absolute;
     right: 0;
-    width: 500px;
+    /* width: 500px; */
     z-index: 99;
 }
 @media only screen and (min-width:700px) {
@@ -682,27 +688,66 @@ html {
     width: 1000px;
     z-index: 9;
 }
-@media only screen and (min-width:1024px) {
+@media  only screen and (min-width:1024px)  {
     .ps_what--gradient {
         display: block;
     }
 }
 .ps_what--screen {
     bottom: 0;
-    height: 250px;
+    height: 161px;
     overflow: hidden;
     position: absolute;
-    right: 52px;
-    width: 400px;
+    right:33px ;
+    width: 257px;
     z-index: 999;
 }
-@media only screen and (min-width:700px) {
+@media  only screen and (min-width:700px)  {
     .ps_what--screen {
         height: 336px;
         right: 69px;
         width: 537px;
     }
 }
+@media   only screen and (max-width:699px) and (min-width:400px)   {
+    .ps_what--screen {
+        width: 332px !important;
+    right: 43px !important;
+    height: 208px !important;
+    }
+}
+@media   only screen and (max-width:399px) and (min-width:322px)   {
+    .ps_what--screen {
+        width: 301px !important;
+         right: 39px !important;
+         height: 189px !important;
+    }
+}
+@media   only screen and (max-width:321px)   {
+    .ps_what--screen {
+        width: 257px;
+        right: 33px;
+        height: 161px;
+    }
+}
+/* @media  only screen and (min-width:501px) and (max-with:699px)  {
+    .ps_what--screen {
+            height: 189px !important;
+            width: 307px !important;
+    } 
+}*/
+/* @media  only screen and  (min-width:205) {
+    .ps_what--screen {
+           bottom: 0 !important;
+            height: 161px !important;
+            overflow: hidden !important;
+            position: absolute !important;
+            right: 33px !important;
+            width: 257px !important;
+            z-index: 998 ;
+
+    }
+} */
 .ps_what--screen iframe {
     height: 100%;
     width: 100%;
