@@ -18771,7 +18771,7 @@ a .search-results-section__footer p {
 	top: 50%;
 	left: 50%;
 	margin-left: -90px;
-	background: url(main/images/icons/xplaybutton,402x.png.pagespeed.ic.PyWDYjqLSX.webp) 0 0;
+	background: url(/img/xplaybutton,402x.png.pagespeed.ic.PyWDYjqLSX.png) 0 0;
 	width: 180px;
 	height: 180px;
 	background-size: 360px;
@@ -18782,11 +18782,11 @@ a .search-results-section__footer p {
 	display: none
 }
 .video-component.video-show-button.white-black-play-btn:after {
-	background: url(main/images/icons/xplaybutton,402x.png.pagespeed.ic.PyWDYjqLSX.webp) 0 0;
+	background: url(/img/xplaybutton,402x.png.pagespeed.ic.PyWDYjqLSX.png) 0 0;
 	background-size: 360px
 }
 .video-component.video-show-button.black-white-play-btn:after {
-	background: url(main/images/icons/xplaybutton,402x.png.pagespeed.ic.PyWDYjqLSX.webp) 180px 0;
+	background: url(/img/xplaybutton,402x.png.pagespeed.ic.PyWDYjqLSX.png) 180px 0;
 	background-size: 360px
 }
 .video-component iframe,
@@ -18870,21 +18870,26 @@ body.header-popup-open {
 	top: 20px;
 	transform: rotate(-45deg)
 }
-.header .pluralsight.horizontal--logo {
+/* .header .pluralsight.horizontal--logo {
 	position: relative;
 	height: 60px;
 	background-image: url(/img/logomb3.png);
 	background-repeat: no-repeat;
 	background-position: 6px 13px;
 	background-size: auto 70%
-}
-@media only screen and (min-width:1025px) {
+} */
+
+@media only screen and (max-width:1024px) {
+	.hide-1024{
+		display: none;
+	}
 	.header .pluralsight.horizontal--logo {
-		height: 83px;
+		height: 70px;
 		margin: 0;
-		background-image: url(/img/logopc.png);
+		background-image: url(/img/logomb3.png);
 		background-size: 80% auto;
-		background-position: center center
+		background-position: center center ;
+		background-repeat: no-repeat;
 	}
 }
 /* @media only screen and (max-width:1024px) and (min-width:768px) {
@@ -18899,12 +18904,12 @@ body.header-popup-open {
 	}
 } */
 
-.header .pluralsight.horizontal--logo:before {
+/* .header .pluralsight.horizontal--logo:before {
 	display: block;
 	content: "";
 	width: 100%;
 	padding-top: 33.33332%
-}
+} */
 .header {
 	background: rgba(33, 33, 33, .9);
 	display: block;
@@ -22004,7 +22009,7 @@ hr.hr_width_thick {
 }
 @media only screen and (min-width:64.0625em) {
 	.large-five-col {
-		width: 20%
+		width: 33.3330%
 	}
 }
 @media only screen and (min-width:40.0625em) {
@@ -28375,7 +28380,7 @@ pre.code-snippet:before {
 	height: 35px;
 	z-index: 10;
 	color: rgba(255, 255, 255, 0);
-	background: url(main/images/xtp-arrow-sprite.png.pagespeed.ic.fCOjLy0Pww.webp) no-repeat no-repeat
+	background: url(/img/xtp-arrow-sprite.png.pagespeed.ic.fCOjLy0Pww.png) no-repeat no-repeat
 }
 .sc-carousel-wrapper .sc-carousel-next:hover,
 .sc-carousel-wrapper .sc-carousel-prev:hover {
@@ -29674,7 +29679,7 @@ pre.code-snippet:before {
 }
 .ps_video_intro_icon {
 	margin-left: -90px;
-	background: url(main/images/icons/xplaybutton,402x.png.pagespeed.ic.PyWDYjqLSX.webp) 0 0;
+	background: url(/img/xplaybutton,402x.png.pagespeed.ic.PyWDYjqLSX.png) 0 0;
 	width: 180px;
 	height: 180px;
 	background-size: 360px;
@@ -29694,19 +29699,19 @@ pre.code-snippet:before {
 	cursor: pointer
 }
 .ps_video_intro_icon.white-black-play-btn {
-	background: url(main/images/icons/xplaybutton,402x.png.pagespeed.ic.PyWDYjqLSX.webp) 0 0;
+	background: url(/img/xplaybutton,402x.png.pagespeed.ic.PyWDYjqLSX.png) 0 0;
 	background-size: 360px
 }
 .ps_video_intro_icon.black-white-play-btn {
-	background: url(main/images/icons/xplaybutton,402x.png.pagespeed.ic.PyWDYjqLSX.webp) 180px 0;
+	background: url(/img/xplaybutton,402x.png.pagespeed.ic.PyWDYjqLSX.png) 180px 0;
 	background-size: 360px
 }
 .ps_video_intro_icon.white-trans-play-btn {
-	background: url(main/images/icons/xplaybutton,402x.png.pagespeed.ic.PyWDYjqLSX.webp) 0 180px;
+	background: url(/img/xplaybutton,402x.png.pagespeed.ic.PyWDYjqLSX.png) 0 180px;
 	background-size: 360px
 }
 .ps_video_intro_icon.black-trans-play-btn {
-	background: url(main/images/icons/xplaybutton,402x.png.pagespeed.ic.PyWDYjqLSX.webp) 180px 180px;
+	background: url(/img/xplaybutton,402x.png.pagespeed.ic.PyWDYjqLSX.png) 180px 180px;
 	background-size: 360px
 }
 @media only screen and (min-width:43.75em) {
@@ -30927,7 +30932,7 @@ body.mode-edit .flex-block-container.carousel .slick-list .slick-track>.section 
 	height: 35px;
 	z-index: 10;
 	color: rgba(153, 153, 153, 0);
-	background: url(main/images/xtp-arrow-sprite.png.pagespeed.ic.fCOjLy0Pww.webp) no-repeat no-repeat;
+	background: url(/img/xtp-arrow-sprite.png.pagespeed.ic.fCOjLy0Pww.png) no-repeat no-repeat;
 	opacity: 0;
 	transition: opacity .3s ease
 }
