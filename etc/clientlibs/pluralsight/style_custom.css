@@ -13809,8 +13809,8 @@ li.L8 {
 	width: 100%;
 	height: 100%;
 	z-index: 1000;
-	background: #222;
-	opacity: .75;
+	
+	opacity: 1;
 	top: 0;
 	left: 0;
 	display: none
