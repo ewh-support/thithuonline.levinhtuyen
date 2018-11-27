@@ -2793,7 +2793,7 @@ p {
 	font-size: 16px;
 	font-weight: normal;
 	line-height: 1.6;
-	margin-bottom: 20px;
+	margin-bottom: 00px;
 	text-rendering: optimizeLegibility
 }
 
@@ -13961,7 +13961,7 @@ li.L8 {
 }
 
 .role-iq-content .role-hero-icon img {
-	width: 250px;
+	width: 350px;
 	margin-top: 30px
 }
 
@@ -14052,7 +14052,7 @@ li.L8 {
 
 .role-iq-content .roleiq-course--svg {
 	position: relative;
-	background-image: url(http://www.pluralsight.com/content/dam/pluralsight2/product/roleiq/xps_graph.jpg.pagespeed.ic.cBWzPRkDmm.webp);
+	/* background-image: url(http://www.pluralsight.com/content/dam/pluralsight2/product/roleiq/xps_graph.jpg.pagespeed.ic.cBWzPRkDmm.webp); */
 	background-size: contain;
 	background-position: center center;
 	background-repeat: no-repeat;
@@ -14186,7 +14186,7 @@ li.L8 {
 
 .role-iq-content .block_roleiqlevel .roleiq-card--text {
 	color: #48bfa3;
-	font-size: 42px;
+	font-size: 32px;
 	font-weight: 700;
 	text-transform: uppercase;
 	padding-left: 20px;
