@@ -14047,7 +14047,8 @@ li.L8 {
 }
 
 .role-iq-content .roleiq-course--header img {
-	width: 60px
+	width: 30px;
+	margin: 5pt;
 }
 
 .role-iq-content .roleiq-course--svg {
@@ -14088,7 +14089,8 @@ li.L8 {
 }
 
 .role-iq-content .roleiq-tab .roleiq-image img {
-	width: 60px
+	width: 30px;
+	margin: 10px;
 }
 
 @media only screen and (max-width:1024px) {

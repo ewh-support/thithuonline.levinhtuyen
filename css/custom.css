@@ -894,7 +894,7 @@ html {
     width: 240px;
 }
 #tech-platform_ .ps_hero--device {
-    background: url("https://www.pluralsight.com/content/dam/pluralsight2/product/business_platform/xps_enterprise--device.png.pagespeed.ic.g7ZAIJYESX.webp");
+    /* background: url("https://www.pluralsight.com/content/dam/pluralsight2/product/business_platform/xps_enterprise--device.png.pagespeed.ic.g7ZAIJYESX.webp"); */
     background-size: cover;
     height: 182px;
     margin: -5px auto 0;
