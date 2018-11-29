@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="62px" height="62px" viewBox="0 0 62 62" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>business-buildings</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="V5" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+        <g id="1_v5-cust-stories-home_desktop" transform="translate(-181.000000, -469.000000)" stroke="#E80A89" stroke-width="1.7">
+            <g id="fast-facts" transform="translate(141.000000, 439.000000)">
+                <g id="fast-fact-1">
+                    <g id="business-buildings" transform="translate(41.000000, 31.000000)">
+                        <polygon id="Stroke-5515" points="23.5416667 18.375 0.291666667 18.375 0.291666667 59.7083333 23.5416667 59.7083333"></polygon>
+                        <polygon id="Stroke-5516" points="20.9583333 18.375 2.875 18.375 2.875 8.04166667 20.9583333 8.04166667"></polygon>
+                        <path d="M10.625,8.04166667 L10.625,0.291666667" id="Stroke-5517"></path>
+                        <polygon id="Stroke-5518" points="59.7083333 59.7083333 41.625 59.7083333 41.625 23.5416667 59.7083333 23.5416667"></polygon>
+                        <polygon id="Stroke-5519" points="57.125 23.5416667 44.2083333 23.5416667 44.2083333 15.7916667 57.125 15.7916667"></polygon>
+                        <path d="M23.5416667,33.875 L41.625,33.875" id="Stroke-5520"></path>
+                        <path d="M23.5416667,59.7083333 L41.625,59.7083333" id="Stroke-5521"></path>
+                        <path d="M8.04166667,13.2083333 L15.7916667,13.2083333" id="Stroke-5522"></path>
+                        <path d="M5.45833333,23.5416667 L18.375,23.5416667" id="Stroke-5523"></path>
+                        <path d="M5.45833333,28.7083333 L18.375,28.7083333" id="Stroke-5524"></path>
+                        <path d="M5.45833333,33.875 L18.375,33.875" id="Stroke-5525"></path>
+                        <path d="M5.45833333,39.0416667 L18.375,39.0416667" id="Stroke-5526"></path>
+                        <path d="M5.45833333,44.2083333 L18.375,44.2083333" id="Stroke-5527"></path>
+                        <path d="M5.45833333,49.375 L18.375,49.375" id="Stroke-5528"></path>
+                        <path d="M46.7916667,28.7083333 L54.5416667,28.7083333" id="Stroke-5529"></path>
+                        <path d="M46.7916667,33.875 L54.5416667,33.875" id="Stroke-5530"></path>
+                        <path d="M46.7916667,39.0416667 L54.5416667,39.0416667" id="Stroke-5531"></path>
+                        <path d="M46.7916667,44.2083333 L54.5416667,44.2083333" id="Stroke-5532"></path>
+                        <path d="M46.7916667,49.375 L54.5416667,49.375" id="Stroke-5533"></path>
+                        <path d="M28.7083333,39.0416667 L36.4583333,39.0416667" id="Stroke-5534"></path>
+                        <path d="M28.7083333,44.2083333 L36.4583333,44.2083333" id="Stroke-5535"></path>
+                        <path d="M28.7083333,49.375 L36.4583333,49.375" id="Stroke-5536"></path>
+                        <polygon id="Stroke-5537" points="13.2083333 54.5416667 8.04166667 54.5416667 8.04166667 59.7083333 13.2083333 59.7083333"></polygon>
+                        <polygon id="Stroke-5538" points="54.5416667 59.7083333 49.375 59.7083333 49.375 54.5416667 54.5416667 54.5416667"></polygon>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
