@@ -22185,7 +22185,7 @@ hr.hr_width_thick {
 .tl-wrapper .tl-wrapper-inner {
 	position: relative;
 	width: 100%;
-	padding: 0 20px;
+	/* padding: 0 20px; */
 	margin: 0
 }
 @media only screen and (min-width:1600px) {
@@ -22195,7 +22195,7 @@ hr.hr_width_thick {
 }
 @media only screen and (min-width:320px) and (max-width:767px) {
 	.tl-wrapper .tl-wrapper-inner {
-		padding: 0 50px;
+		/* padding: 0 50px; */
 		width: auto
 	}
 }
@@ -22225,12 +22225,12 @@ hr.hr_width_thick {
 	z-index: 10;
 	color: rgba(255, 255, 255, 0);
 	background-repeat: no-repeat;
-	background-image: url(main/images/xarrow-sprite.png.pagespeed.ic.fCOjLy0Pww.webp)
+	background-image: url()
 }
 .tl-wrapper .slick-prev:hover,
 .tl-wrapper .slick-next:hover {
 	color: rgba(255, 255, 255, 0);
-	background-image: url(main/images/xarrow-sprite.png.pagespeed.ic.fCOjLy0Pww.webp)
+	background-image: url()
 }
 .tl-wrapper .slick-prev:before,
 .tl-wrapper .slick-next:before {
@@ -26510,12 +26510,12 @@ a.item-carousel-item-text:hover {
 	z-index: 10;
 	color: rgba(255, 255, 255, 0);
 	background-repeat: no-repeat;
-	background-image: url(main/images/xarrow-sprite.png.pagespeed.ic.fCOjLy0Pww.webp)
+	background-image: url()
 }
 .item-carousel-wrapper .slick-prev:hover,
 .item-carousel-wrapper .slick-next:hover {
 	color: rgba(255, 255, 255, 0);
-	background-image: url(main/images/xarrow-sprite.png.pagespeed.ic.fCOjLy0Pww.webp)
+	background-image: url()
 }
 .item-carousel-wrapper .slick-prev:before,
 .item-carousel-wrapper .slick-next:before {
