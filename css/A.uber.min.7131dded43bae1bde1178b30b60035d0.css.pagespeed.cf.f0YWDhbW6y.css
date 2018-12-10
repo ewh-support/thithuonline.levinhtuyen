@@ -3793,7 +3793,7 @@ body.header-popup-open{overflow:hidden;position:fixed;width:100%}
 }
 @media only screen and (max-width:1024px) and (min-width:768px){.header .pluralsight.horizontal--logo{position:relative;height:60px;width:52px;background-image:url('main/images/global/header/PS_logo_sm.png');background-repeat:no-repeat;background-position:6px 13px;background-size:auto 70%}
 }
-.header .pluralsight.horizontal--logo:before{display:block;content:"";width:100%;padding-top:33.33332%}
+.header .pluralsight.horizontal--logo:before{display:block;content:"";width:100%;}
 .header{background:rgba(33,33,33,0.9);display:block;height:70px;left:0;position:fixed;right:0;top:0;z-index:99999;box-shadow:0 10px 20px 0 rgba(0,0,0,0.2)}
 .header .pluralsight{float:left;position:relative;width:56px;z-index:999}
 @media only screen and (min-width:1025px){.header{height:85px}
@@ -3891,7 +3891,7 @@ body.header-popup-open{overflow:hidden;position:fixed;width:100%}
 @media only screen and (max-width:1024px) and (min-width:768px){.header .container-lg{margin:0 56px}
 }
 .header .header_search{padding:15px 0;box-sizing:border-box}
-.header .header_search input[type="text"]{background-color:transparent;background-image:url("main/images/search.svg");background-size:32px 32px;background-repeat:no-repeat;background-position:3px 7px;border:solid 1px #555;color:#fff;font-family:inherit;font-size:14px;font-style:normal;font-weight:300;padding:.5845em 1em .5845em 2.5em;margin:0;position:relative;width:100%;height:40px;border-radius:5px;box-sizing:border-box;background-clip:padding-box;appearance:none;transition:all .3s ease}
+.header .header_search input[type="text"]{background-color:transparent;background-size:32px 32px;background-repeat:no-repeat;background-position:3px 7px;border:solid 1px #555;color:#fff;font-family:inherit;font-size:14px;font-style:normal;font-weight:300;padding:.5845em 1em .5845em 2.5em;margin:0;position:relative;width:100%;height:40px;border-radius:5px;box-sizing:border-box;background-clip:padding-box;appearance:none;transition:all .3s ease}
 .header .header_search input[type="text"]:focus{outline:0}
 .header .header_search input[type="text"]::placeholder{color:#fff}
 @media only screen and (min-width:1025px){.header .header_search input[type="text"]{font-size:14px}
@@ -4290,7 +4290,7 @@ h1.title-font-tungsten,h2.title-font-tungsten,h3.title-font-tungsten,h4.title-fo
 .block--light .share--share p{color:#555}
 .block--light .share--share .share__link{border-color:#555;opacity:1}
 .block--light .share__link:hover{border-color:#f15b2a}
-.face-icon{background-image:url(main/images/icons/desktop/Facebook_Icon.svg)}
+/* .face-icon{background-image:url(main/images/icons/desktop/Facebook_Icon.svg)}
 .tweet-icon{background-image:url(main/images/icons/desktop/Twitter_Icon.svg)}
 .insta-icon{background-image:url(main/images/icons/desktop/Instagram_Icon.svg)}
 .more-icon{background-image:url(main/images/icons/desktop/More_Icon.svg)}
@@ -4307,7 +4307,7 @@ h1.title-font-tungsten,h2.title-font-tungsten,h3.title-font-tungsten,h4.title-fo
 .block--light .linkedin-icon,.darkIcon.linkedin-icon{background-image:url(main/images/icons/desktop/LinkedIn_Icon_Gray.svg);opacity:1}
 .block--light .linkedin-icon:hover,.darkIcon.linkedin-icon:hover{background-image:url(main/images/icons/desktop/LinkedIn_Icon_Orange.svg)}
 .block--light .youtube-icon,.darkIcon.youtube-icon{background-image:url(main/images/icons/desktop/YouTube_Icon_Gray.svg);opacity:1}
-.block--light .youtube-icon:hover,.darkIcon.youtube-icon:hover{background-image:url(main/images/icons/desktop/YouTube_Icon_Orange.svg)}
+.block--light .youtube-icon:hover,.darkIcon.youtube-icon:hover{background-image:url(main/images/icons/desktop/YouTube_Icon_Orange.svg)} */
 .landing-page-hero-block .share__links{width:265px}
 .rich-text-component{font-weight:400;font-size:14px;line-height:24px;color:inherit}
 .rich-text-component a{color:#f15b2a}

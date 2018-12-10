@@ -19362,7 +19362,7 @@ body.header-popup-open {
 }
 .header .header_search input[type="text"] {
 	background-color: transparent;
-	background-image: url(main/images/search.svg);
+	/* background-image: url(main/images/search.svg); */
 	background-size: 32px 32px;
 	background-repeat: no-repeat;
 	background-position: 3px 7px;
@@ -21240,7 +21240,7 @@ h6.title-font-tungsten {
 .block--light .share__link:hover {
 	border-color: #f15b2a
 }
-.face-icon {
+/* .face-icon {
 	background-image: url(main/images/icons/desktop/Facebook_Icon.svg)
 }
 .tweet-icon {
@@ -21311,7 +21311,7 @@ h6.title-font-tungsten {
 .block--light .youtube-icon:hover,
 .darkIcon.youtube-icon:hover {
 	background-image: url(main/images/icons/desktop/YouTube_Icon_Orange.svg)
-}
+} */
 .landing-page-hero-block .share__links {
 	width: 265px
 }
