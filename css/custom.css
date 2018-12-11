@@ -893,6 +893,15 @@ html {
     top: 10px;
     width: 240px;
 }
+.mobile{ 
+    height: 350px !important;
+}
+@media only screen and (max-width: 400px){
+    .mobile{
+        height: 650px !important;
+    }
+}
+
 #tech-platform_ .ps_hero--device {
     /* background: url("https://www.pluralsight.com/content/dam/pluralsight2/product/business_platform/xps_enterprise--device.png.pagespeed.ic.g7ZAIJYESX.webp"); */
     background-size: cover;
