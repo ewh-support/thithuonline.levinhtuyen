@@ -851,17 +851,20 @@ html {
     display: flex;
     align-items: center;
 }
+
 .ps_logos--title {
     color: #555;
     font-size: 24px;
     font-weight: 300;
     line-height: 32px;
 }
+
 @media only screen and (min-width:600px) {
     .ps_logos--block {
         width: 13%;
     }
 }
+
 #tech-platform_ {
     background: #222;
     color: #fff;
