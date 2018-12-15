@@ -897,11 +897,11 @@ html {
     width: 240px;
 }
 .mobile{ 
-    height: 350px !important;
+    height: 400px !important;
 }
 @media only screen and (max-width: 400px){
     .mobile{
-        height: 650px !important;
+        height: 1050px !important;
     }
 }
 
