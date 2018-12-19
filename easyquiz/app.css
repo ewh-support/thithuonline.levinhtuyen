@@ -112389,7 +112389,7 @@ img {
     white-space: normal !important;
 }
 .block-question .style-question {
-    font-size: 15px;
+    font-size: 17px;
     color: #fff;
     margin: 0;
     line-height: 25px;
@@ -112769,7 +112769,7 @@ select {
     max-width: 1200px;
     padding: 20px 0 40px;
     position: relative;
-    margin-bottom: 56px !important;
+    margin-bottom: 0px !important;
     margin-top: 85px !important;
 }
 .style-vh{
@@ -112787,6 +112787,7 @@ select {
 }
 .page{
     overflow: auto;
+    background: #222222 !important;
 }
 .style-max-w{
     max-width: 768px;
@@ -112813,12 +112814,11 @@ select {
     align-items: center;
 }
 .style-form{
-    background: #222;
+    /* background: #222; */
     border-radius: 5px;
     padding: 15px;
 }
 .style-chu-thich{
-    background: linear-gradient(180deg, #3e3443 20%, #222 100%);
     border-radius: 5px;
     padding: 15px;
 }
@@ -112842,6 +112842,16 @@ select {
 .style-box-ch{
     justify-content: center;
     display: inline-flex;
+}
+.MJXc-display {
+    display: inline-block !important;
+}
+.style-box-kt{
+    background: #171717;
+    padding-bottom: 15px !important;
+}
+.mjx-chtml{
+    white-space: normal !important;
 }
 @media only screen and (min-width: 1025px){
     .set-height {
@@ -112945,5 +112955,10 @@ select {
         font-size: 15px;
     }
 
+}
+
+
+.test h1[data-v-658af5cf] {
+  color: #40b883;
 }
 
