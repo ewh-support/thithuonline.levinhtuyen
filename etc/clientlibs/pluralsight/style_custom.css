@@ -30302,7 +30302,7 @@ pre.code-snippet:before {
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: top;
-	min-height: 300px
+	/* min-height: 300px */
 }
 .block .title {
 	color: #f3f3f3
