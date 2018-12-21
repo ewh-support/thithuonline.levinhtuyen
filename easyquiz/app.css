@@ -112375,7 +112375,6 @@ img {
 }
 .tag-group-list .item-content {
     padding-left: 0 !important;
-    color: #fff;
 }
 .ios .radio input[type="radio"]:checked ~ .icon-radio,
 .ios label.item-radio input[type="radio"]:checked ~ * .icon-radio,
@@ -112383,14 +112382,11 @@ img {
     background-image: none;
 }
 .block-question {
-    background: #545758;
-    padding: 10px;
     border-radius: 5px;
     white-space: normal !important;
 }
 .block-question .style-question {
     font-size: 17px;
-    color: #fff;
     margin: 0;
     line-height: 25px;
 }
@@ -112580,6 +112576,7 @@ select {
 }
 .md label.item-radio > .icon-radio {
     margin-right: 15px;
+    border-color: #ccc;
 }
 .ios .tag-group-list .item-inner {
     margin-left: 35px;
@@ -112626,6 +112623,7 @@ select {
 
 .md label.item-checkbox > .icon-checkbox {
     margin-right: 15px;
+    border-color: #ccc;
 }
 .md .page {
     background-color: #181818;
@@ -112709,7 +112707,6 @@ select {
 }
 .style-bt-a {
     max-width: 150px;
-    margin: 0 auto 15px;
 }
 .position-relative {
     position: relative;
@@ -112767,10 +112764,8 @@ select {
 .ps_what--container {
     margin: 0 auto !important;
     max-width: 1200px;
-    padding: 20px 0 40px;
     position: relative;
     margin-bottom: 0px !important;
-    margin-top: 85px !important;
 }
 .style-vh{
     border: 2px solid #fff;
@@ -112787,7 +112782,6 @@ select {
 }
 .page{
     overflow: auto;
-    background: #222222 !important;
 }
 .style-max-w{
     max-width: 768px;
@@ -112816,7 +112810,7 @@ select {
 .style-form{
     /* background: #222; */
     border-radius: 5px;
-    padding: 15px;
+    /* padding: 15px; */
 }
 .style-chu-thich{
     border-radius: 5px;
@@ -112852,6 +112846,11 @@ select {
 }
 .mjx-chtml{
     white-space: normal !important;
+}
+.style-bg-page{
+    background-position: center center !important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
 }
 @media only screen and (min-width: 1025px){
     .set-height {
@@ -112907,7 +112906,7 @@ select {
     left: 0;
     bottom: 0;
     width: 18%;
-    z-index: 1;
+    z-index: 5;
 }
 .student-right{
     position: absolute;
@@ -112926,7 +112925,8 @@ select {
     position: absolute;
     right: 0;
     bottom: 0;
-    width: 50%;
+    width: 30%;
+    z-index: 2;
 }
 .title-doi-thu{
     text-align: center;
