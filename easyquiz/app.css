@@ -1,5 +1,5 @@
 /**
- * Framework7 3.4.0
+ * Framework7 3.6.2
  * Full featured mobile HTML framework for building iOS & Android apps
  * http://framework7.io/
  *
@@ -7,7 +7,7 @@
  *
  * Released under the MIT License
  *
- * Released on: September 28, 2018
+ * Released on: December 11, 2018
  */
 html,
 body,
@@ -22,7 +22,7 @@ body {
   padding: 0;
   font-size: 14px;
   width: 100%;
-  background: fff;
+  background: #fff;
   overflow: hidden;
   -webkit-text-size-adjust: 100%;
   -webkit-font-smoothing: antialiased;
@@ -3479,6 +3479,8 @@ html.with-statusbar.device-iphone-x .framework7-root {
 .list li:last-child li:last-child > .item-inner:after,
 .list li:last-child > .item-content > .item-inner:after,
 .list li:last-child li:last-child > .item-content > .item-inner:after,
+.list li:last-child > .swipeout-content > .item-content > .item-inner:after,
+.list li:last-child li:last-child > .swipeout-content > .item-content > .item-inner:after,
 .list li:last-child > .item-link > .item-content > .item-inner:after,
 .list li:last-child li:last-child > .item-link > .item-content > .item-inner:after {
   display: none !important;
@@ -8963,7 +8965,7 @@ html.with-statusbar.md:not(.device-ios):not(.device-android) .login-screen {
   opacity: 0;
   -webkit-transition-duration: 400ms;
   transition-duration: 400ms;
-  z-index: 10500;
+  z-index: 11000;
 }
 .sheet-backdrop.not-animated {
   -webkit-transition-duration: 0ms;
@@ -9385,6 +9387,7 @@ html.with-statusbar.md:not(.device-ios):not(.device-android) .toast-top {
   visibility: visible;
   opacity: 0;
   background: none;
+  z-index: 14000;
 }
 .preloader-backdrop.not-animated {
   -webkit-transition-duration: 0ms;
@@ -9400,7 +9403,7 @@ html.with-statusbar.md:not(.device-ios):not(.device-android) .toast-top {
   top: 50%;
   padding: 8px;
   background: rgba(0, 0, 0, 0.8);
-  z-index: 13500;
+  z-index: 14500;
   -webkit-transform: translateX(-50%) translateY(-50%);
   transform: translateX(-50%) translateY(-50%);
 }
@@ -112258,7 +112261,7 @@ img {
     padding: 0 !important;
 }
 .style-height {
-    min-height: 120px;
+    min-height: 155px;
 }
 /* ======================PAGE introduce-page-1================== */
 .box-info {
@@ -112459,7 +112462,7 @@ img {
     background: linear-gradient(left, red, yellow, green);
 }
 .style-warning {
-    border: 2px solid;
+    border: 1px solid #ccc;
     padding: 10px;
     border-radius: 5px;
 }
@@ -112514,7 +112517,7 @@ select {
     padding: 15px;
     text-align: center;
     text-transform: uppercase;
-    font-weight: bold;
+    font-weight: bold !important;
     color: #fff;
 }
 .mg-top-0 {
@@ -112850,6 +112853,17 @@ select {
     background-repeat: no-repeat !important;
     background-size: cover !important;
 }
+.md .list ul ul {
+    padding-left: 0px;
+}
+.ios .navbar a.link {
+    line-height: 50px;
+    height: 50px;
+    color: #fff;
+}
+.bg-card{
+    background:#2f2f30 !important;
+}
 @media only screen and (min-width: 1025px){
     .set-height {
         height: 85px !important;
@@ -112961,6 +112975,369 @@ select {
 }
 
 
+.all-style-paraphrase .assessment:before {
+     border-color: #ccc transparent #ccc transparent;
+}
+.all-style-paraphrase .form-dk-paraphrase {
+     border-radius: 5px;
+     margin: 15px 5px 5px;
+     background-color: #ffffff;
+}
+.all-style-paraphrase .block-title-form {
+     color: #222;
+}
+.all-style-paraphrase .item-title.item-label {
+    color: #222 !important;
+}
+.all-style-paraphrasev .list .item-inner {
+     line-height: 38px;
+}
+.all-style-paraphrase .block-title-form{
+     color: #222 !important;
+}
+.all-style-paraphrase select, input, textarea{
+     color: #222 !important;
+}
+.all-style-paraphrase textarea{
+     border: 1px solid #ccc;
+     padding: 10px;
+     margin-top: 10px;
+     border-radius: 5px;
+     font-size: 14px !important;
+}
+.all-style-paraphrase option{
+     color: #222 !important;
+}
+.all-style-paraphrase input::-moz-placeholder {
+     color: #ccc;
+}
+.all-style-paraphrase input:-ms-input-placeholder {
+     color: #ccc;
+}
+.all-style-paraphrase input::-ms-input-placeholder {
+     color: #ccc;
+}
+.all-style-paraphrase input::placeholder {
+     color: #ccc !important;
+}
+.all-style-paraphrase textarea::-moz-placeholder {
+     color: #ccc;
+}
+.all-style-paraphrase textarea:-ms-input-placeholder {
+     color: #ccc;
+}
+.all-style-paraphrase textarea::-ms-input-placeholder {
+     color: #ccc;
+}
+.all-style-paraphrase textarea::placeholder {
+     color: #ccc !important;   
+     font-size: 14px;
+}
+.all-style-paraphrase .item-title {
+     font-size: 14px;
+}
+.style-input-share input{
+     background-color: #fff;
+     padding-left: 10px;
+     margin-top: 10px;
+}
+.style-share-fb {
+     margin-top: 15px;
+     text-align: center;
+}
+.style-share-fb span{
+     background: #516eab;
+     color: #fff;
+     padding: 10px;
+     height: 35px;
+     line-height: 35px;
+     cursor: pointer;
+}
+.style-share-fb span i{
+     border-right: 1px solid #ccc;
+     height: 35px;
+     line-height: 35px;
+     padding-right: 8px;
+     margin-right: 8px;
+}
+.ios .ios-p-plr-15 {
+     padding-left: 15px;
+     padding-right: 15px;
+}
+.style-tag-ul ul:before{
+     background-color: transparent !important;
+}
+.style-tag-ul ul:after{
+     background-color: transparent !important;
+}
+.style-popup .navbar-inner{
+     background-image: url(images/level-test-bg.faeef65.png) !important;
+}
+.style-popup{
+     background-image: url(images/level-test-bg.faeef65.png) !important;
+}
+.style-popup .page-content{
+     align-items: center;
+     display: inline-flex;
+     width: 100%;
+     padding-top: 0px !important;
+}
+.style-thanh-cong{
+     color: #fff;
+     text-align: center;
+     font-size: 35px;
+     text-transform: uppercase;
+     line-height: 120%;
+     font-weight: bold;
+}
+
+
+.all-style-paraphrase .assessment:before {
+     border-color: #ccc transparent #ccc transparent;
+}
+.all-style-paraphrase .form-dk-paraphrase {
+     border-radius: 5px;
+     margin: 15px 5px 5px;
+     background-color: #ffffff;
+}
+.all-style-paraphrase .block-title-form {
+     color: #222;
+}
+.all-style-paraphrase .item-title.item-label {
+    color: #222 !important;
+}
+.all-style-paraphrasev .list .item-inner {
+     line-height: 38px;
+}
+.all-style-paraphrase .block-title-form{
+     color: #222 !important;
+}
+.all-style-paraphrase select, input, textarea{
+     color: #222 !important;
+}
+.all-style-paraphrase textarea{
+     border: 1px solid #ccc;
+     padding: 10px;
+     margin-top: 10px;
+     border-radius: 5px;
+     font-size: 14px !important;
+}
+.all-style-paraphrase option{
+     color: #222 !important;
+}
+.all-style-paraphrase input::-moz-placeholder {
+     color: #ccc;
+}
+.all-style-paraphrase input:-ms-input-placeholder {
+     color: #ccc;
+}
+.all-style-paraphrase input::-ms-input-placeholder {
+     color: #ccc;
+}
+.all-style-paraphrase input::placeholder {
+     color: #ccc !important;
+}
+.all-style-paraphrase textarea::-moz-placeholder {
+     color: #ccc;
+}
+.all-style-paraphrase textarea:-ms-input-placeholder {
+     color: #ccc;
+}
+.all-style-paraphrase textarea::-ms-input-placeholder {
+     color: #ccc;
+}
+.all-style-paraphrase textarea::placeholder {
+     color: #ccc !important;   
+     font-size: 14px;
+}
+.all-style-paraphrase .item-title {
+     font-size: 14px;
+}
+.style-input-share input{
+     background-color: #fff;
+     padding-left: 10px;
+     margin-top: 10px;
+}
+.style-share-fb {
+     margin-top: 15px;
+     text-align: center;
+}
+.style-share-fb span{
+     background: #516eab;
+     color: #fff;
+     padding: 10px;
+     height: 35px;
+     line-height: 35px;
+     cursor: pointer;
+}
+.style-share-fb span i{
+     border-right: 1px solid #ccc;
+     height: 35px;
+     line-height: 35px;
+     padding-right: 8px;
+     margin-right: 8px;
+}
+.ios .ios-p-plr-15 {
+     padding-left: 15px;
+     padding-right: 15px;
+}
+.style-tag-ul ul:before{
+     background-color: transparent !important;
+}
+.style-tag-ul ul:after{
+     background-color: transparent !important;
+}
+.style-popup .navbar-inner{
+     background-image: url(images/level-test-bg.faeef65.png) !important;
+}
+.style-popup{
+     background-image: url(images/level-test-bg.faeef65.png) !important;
+}
+.style-popup .page-content{
+     align-items: center;
+     display: inline-flex;
+     width: 100%;
+     padding-top: 0px !important;
+}
+.style-thanh-cong{
+     color: #fff;
+     text-align: center;
+     font-size: 35px;
+     text-transform: uppercase;
+     line-height: 120%;
+     font-weight: bold;
+}
+
+
+.style-form-mg[data-v-3907b958]{
+    max-width: 680px; 
+    margin: 0 auto !important;
+}
+@media (max-width: 768px){
+.style-form-mg[data-v-3907b958]{
+     max-width: 680px; 
+     margin: 35px auto !important;
+}
+}
+
+
+.all-style-paraphrase .assessment:before {
+     border-color: #ccc transparent #ccc transparent;
+}
+.all-style-paraphrase .form-dk-paraphrase {
+     border-radius: 5px;
+     margin: 15px 5px 5px;
+     background-color: #ffffff;
+}
+.all-style-paraphrase .block-title-form {
+     color: #222;
+}
+.all-style-paraphrase .item-title.item-label {
+    color: #222 !important;
+}
+.all-style-paraphrasev .list .item-inner {
+     line-height: 38px;
+}
+.all-style-paraphrase .block-title-form{
+     color: #222 !important;
+}
+.all-style-paraphrase select, input, textarea{
+     color: #222 !important;
+}
+.all-style-paraphrase textarea{
+     border: 1px solid #ccc;
+     padding: 10px;
+     margin-top: 10px;
+     border-radius: 5px;
+     font-size: 14px !important;
+}
+.all-style-paraphrase option{
+     color: #222 !important;
+}
+.all-style-paraphrase input::-moz-placeholder {
+     color: #ccc;
+}
+.all-style-paraphrase input:-ms-input-placeholder {
+     color: #ccc;
+}
+.all-style-paraphrase input::-ms-input-placeholder {
+     color: #ccc;
+}
+.all-style-paraphrase input::placeholder {
+     color: #ccc !important;
+}
+.all-style-paraphrase textarea::-moz-placeholder {
+     color: #ccc;
+}
+.all-style-paraphrase textarea:-ms-input-placeholder {
+     color: #ccc;
+}
+.all-style-paraphrase textarea::-ms-input-placeholder {
+     color: #ccc;
+}
+.all-style-paraphrase textarea::placeholder {
+     color: #ccc !important;   
+     font-size: 14px;
+}
+.all-style-paraphrase .item-title {
+     font-size: 14px;
+}
+.style-input-share input{
+     background-color: #fff;
+     padding-left: 10px;
+     margin-top: 10px;
+}
+.style-share-fb {
+     margin-top: 15px;
+     text-align: center;
+}
+.style-share-fb span{
+     background: #516eab;
+     color: #fff;
+     padding: 10px;
+     height: 35px;
+     line-height: 35px;
+     cursor: pointer;
+}
+.style-share-fb span i{
+     border-right: 1px solid #ccc;
+     height: 35px;
+     line-height: 35px;
+     padding-right: 8px;
+     margin-right: 8px;
+}
+.ios .ios-p-plr-15 {
+     padding-left: 15px;
+     padding-right: 15px;
+}
+.style-tag-ul ul:before{
+     background-color: transparent !important;
+}
+.style-tag-ul ul:after{
+     background-color: transparent !important;
+}
+.style-popup .navbar-inner{
+     background-image: url(images/level-test-bg.faeef65.png) !important;
+}
+.style-popup{
+     background-image: url(images/level-test-bg.faeef65.png) !important;
+}
+.style-popup .page-content{
+     align-items: center;
+     display: inline-flex;
+     width: 100%;
+     padding-top: 0px !important;
+}
+.style-thanh-cong{
+     color: #fff;
+     text-align: center;
+     font-size: 35px;
+     text-transform: uppercase;
+     line-height: 120%;
+     font-weight: bold;
+}
+
+
 .style-bg-page[data-v-4ed6b4e1]{
     background-image: url(images/background.70ea567.jpg) !important;
 }
@@ -113024,9 +113401,8 @@ select {
 
 
 .style-bg-page[data-v-36d5ad0c]{
-    background-image: url(images/first_screen_bg.10f5793.jpg) !important;
+    background-image: url(images/first_screen_bg.f671e1b.jpg) !important;
     background-position: top center !important;
-    margin-top: 85px;
 }
 .text-uppercase[data-v-36d5ad0c]{
     text-transform: uppercase;
@@ -113039,11 +113415,6 @@ select {
 .show-768[data-v-36d5ad0c]{
     display: none;
 }
-@media (max-width: 991px){
-.style-bg-page[data-v-36d5ad0c]{
-        margin-top: 75px;
-}
-}
 @media (max-width: 768px){
 .show-768[data-v-36d5ad0c]{
         display: block;
@@ -113055,9 +113426,8 @@ select {
 
 
 .style-bg-page[data-v-1346d27e]{
-    background-image: url(images/first_screen_bg.10f5793.jpg) !important;
+    background-image: url(images/first_screen_bg.f671e1b.jpg) !important;
     background-position: top center !important;
-    margin-top: 85px;
 }
 .text-uppercase[data-v-1346d27e]{
     text-transform: uppercase;
@@ -113069,11 +113439,6 @@ select {
 }
 .show-768[data-v-1346d27e]{
     display: none;
-}
-@media (max-width: 991px){
-.style-bg-page[data-v-1346d27e]{
-        margin-top: 75px;
-}
 }
 @media (max-width: 768px){
 .show-768[data-v-1346d27e]{
