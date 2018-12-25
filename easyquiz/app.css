@@ -112865,6 +112865,9 @@ select {
 .bg-card{
     background:#2f2f30 !important;
 }
+.ios .block {
+    margin-bottom: 0px;
+}
 @media only screen and (min-width: 1025px){
     .set-height {
         height: 85px !important;
@@ -112939,7 +112942,6 @@ select {
     right: 0;
     bottom: 0;
     width: 30%;
-    z-index: 2;
 }
 .title-doi-thu{
     text-align: center;
@@ -112959,6 +112961,9 @@ select {
     .student-left, .student-right{
        display: none;
     }
+    .student-right-large-1 {
+        bottom: 22%;
+    }
 }
 @media (max-width: 425px){
     .title-doi-thu{
@@ -112967,12 +112972,30 @@ select {
     .title-name{
         font-size: 15px;
     }
+    .student-right-large-1 {
+        width: 50%;
+
+    }
 
 }
 
 
 .test h1[data-v-658af5cf] {
   color: #40b883;
+}
+
+
+.style-back-link .navbar-inner{
+    background-image: url(images/level-test-bg.faeef65.png) !important;
+    background-position: center center !important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+}
+.bt_tit_true_answer {
+    background: rgba(255, 255, 255, 0.15);
+    margin-top: 35px !important;
+    padding-bottom: 30px !important;
+    padding-top: 20px !important;
 }
 
 
@@ -113093,17 +113116,354 @@ select {
 }
 
 
-.style-back-link .navbar-inner{
-    background-image: url(images/level-test-bg.faeef65.png) !important;
-    background-position: center center !important;
-    background-repeat: no-repeat !important;
-    background-size: cover !important;
+.all-style-paraphrase .assessment:before {
+     border-color: #ccc transparent #ccc transparent;
 }
-.bt_tit_true_answer {
-    background: rgba(255, 255, 255, 0.15);
-    margin-top: 35px !important;
-    padding-bottom: 30px !important;
-    padding-top: 20px !important;
+.all-style-paraphrase .form-dk-paraphrase {
+     border-radius: 5px;
+     margin: 15px 5px 5px;
+     background-color: #ffffff;
+}
+.all-style-paraphrase .block-title-form {
+     color: #222;
+}
+.all-style-paraphrase .item-title.item-label {
+    color: #222 !important;
+}
+.all-style-paraphrasev .list .item-inner {
+     line-height: 38px;
+}
+.all-style-paraphrase .block-title-form{
+     color: #222 !important;
+}
+.all-style-paraphrase select, input, textarea{
+     color: #222 !important;
+}
+.all-style-paraphrase textarea{
+     border: 1px solid #ccc;
+     padding: 10px;
+     margin-top: 10px;
+     border-radius: 5px;
+     font-size: 14px !important;
+}
+.all-style-paraphrase option{
+     color: #222 !important;
+}
+.all-style-paraphrase input::-moz-placeholder {
+     color: #ccc;
+}
+.all-style-paraphrase input:-ms-input-placeholder {
+     color: #ccc;
+}
+.all-style-paraphrase input::-ms-input-placeholder {
+     color: #ccc;
+}
+.all-style-paraphrase input::placeholder {
+     color: #ccc !important;
+}
+.all-style-paraphrase textarea::-moz-placeholder {
+     color: #ccc;
+}
+.all-style-paraphrase textarea:-ms-input-placeholder {
+     color: #ccc;
+}
+.all-style-paraphrase textarea::-ms-input-placeholder {
+     color: #ccc;
+}
+.all-style-paraphrase textarea::placeholder {
+     color: #ccc !important;   
+     font-size: 14px;
+}
+.all-style-paraphrase .item-title {
+     font-size: 14px;
+}
+.style-input-share input{
+     background-color: #fff;
+     padding-left: 10px;
+     margin-top: 10px;
+}
+.style-share-fb {
+     margin-top: 15px;
+     text-align: center;
+}
+.style-share-fb span{
+     background: #516eab;
+     color: #fff;
+     padding: 10px;
+     height: 35px;
+     line-height: 35px;
+     cursor: pointer;
+}
+.style-share-fb span i{
+     border-right: 1px solid #ccc;
+     height: 35px;
+     line-height: 35px;
+     padding-right: 8px;
+     margin-right: 8px;
+}
+.ios .ios-p-plr-15 {
+     padding-left: 15px;
+     padding-right: 15px;
+}
+.style-tag-ul ul:before{
+     background-color: transparent !important;
+}
+.style-tag-ul ul:after{
+     background-color: transparent !important;
+}
+.style-popup .navbar-inner{
+     background-image: url(images/level-test-bg.faeef65.png) !important;
+}
+.style-popup{
+     background-image: url(images/level-test-bg.faeef65.png) !important;
+}
+.style-popup .page-content{
+     align-items: center;
+     display: inline-flex;
+     width: 100%;
+     padding-top: 0px !important;
+}
+.style-thanh-cong{
+     color: #fff;
+     text-align: center;
+     font-size: 35px;
+     text-transform: uppercase;
+     line-height: 120%;
+     font-weight: bold;
+}
+
+
+.all-style-paraphrase .assessment:before {
+     border-color: #ccc transparent #ccc transparent;
+}
+.all-style-paraphrase .form-dk-paraphrase {
+     border-radius: 5px;
+     margin: 15px 5px 5px;
+     background-color: #ffffff;
+}
+.all-style-paraphrase .block-title-form {
+     color: #222;
+}
+.all-style-paraphrase .item-title.item-label {
+    color: #222 !important;
+}
+.all-style-paraphrasev .list .item-inner {
+     line-height: 38px;
+}
+.all-style-paraphrase .block-title-form{
+     color: #222 !important;
+}
+.all-style-paraphrase select, input, textarea{
+     color: #222 !important;
+}
+.all-style-paraphrase textarea{
+     border: 1px solid #ccc;
+     padding: 10px;
+     margin-top: 10px;
+     border-radius: 5px;
+     font-size: 14px !important;
+}
+.all-style-paraphrase option{
+     color: #222 !important;
+}
+.all-style-paraphrase input::-moz-placeholder {
+     color: #ccc;
+}
+.all-style-paraphrase input:-ms-input-placeholder {
+     color: #ccc;
+}
+.all-style-paraphrase input::-ms-input-placeholder {
+     color: #ccc;
+}
+.all-style-paraphrase input::placeholder {
+     color: #ccc !important;
+}
+.all-style-paraphrase textarea::-moz-placeholder {
+     color: #ccc;
+}
+.all-style-paraphrase textarea:-ms-input-placeholder {
+     color: #ccc;
+}
+.all-style-paraphrase textarea::-ms-input-placeholder {
+     color: #ccc;
+}
+.all-style-paraphrase textarea::placeholder {
+     color: #ccc !important;   
+     font-size: 14px;
+}
+.all-style-paraphrase .item-title {
+     font-size: 14px;
+}
+.style-input-share input{
+     background-color: #fff;
+     padding-left: 10px;
+     margin-top: 10px;
+}
+.style-share-fb {
+     margin-top: 15px;
+     text-align: center;
+}
+.style-share-fb span{
+     background: #516eab;
+     color: #fff;
+     padding: 10px;
+     height: 35px;
+     line-height: 35px;
+     cursor: pointer;
+}
+.style-share-fb span i{
+     border-right: 1px solid #ccc;
+     height: 35px;
+     line-height: 35px;
+     padding-right: 8px;
+     margin-right: 8px;
+}
+.ios .ios-p-plr-15 {
+     padding-left: 15px;
+     padding-right: 15px;
+}
+.style-tag-ul ul:before{
+     background-color: transparent !important;
+}
+.style-tag-ul ul:after{
+     background-color: transparent !important;
+}
+.style-popup .navbar-inner{
+     background-image: url(images/level-test-bg.faeef65.png) !important;
+}
+.style-popup{
+     background-image: url(images/level-test-bg.faeef65.png) !important;
+}
+.style-popup .page-content{
+     align-items: center;
+     display: inline-flex;
+     width: 100%;
+     padding-top: 0px !important;
+}
+.style-thanh-cong{
+     color: #fff;
+     text-align: center;
+     font-size: 35px;
+     text-transform: uppercase;
+     line-height: 120%;
+     font-weight: bold;
+}
+
+
+.all-style-paraphrase .assessment:before {
+     border-color: #ccc transparent #ccc transparent;
+}
+.all-style-paraphrase .form-dk-paraphrase {
+     border-radius: 5px;
+     margin: 15px 5px 5px;
+     background-color: #ffffff;
+}
+.all-style-paraphrase .block-title-form {
+     color: #222;
+}
+.all-style-paraphrase .item-title.item-label {
+    color: #222 !important;
+}
+.all-style-paraphrasev .list .item-inner {
+     line-height: 38px;
+}
+.all-style-paraphrase .block-title-form{
+     color: #222 !important;
+}
+.all-style-paraphrase select, input, textarea{
+     color: #222 !important;
+}
+.all-style-paraphrase textarea{
+     border: 1px solid #ccc;
+     padding: 10px;
+     margin-top: 10px;
+     border-radius: 5px;
+     font-size: 14px !important;
+}
+.all-style-paraphrase option{
+     color: #222 !important;
+}
+.all-style-paraphrase input::-moz-placeholder {
+     color: #ccc;
+}
+.all-style-paraphrase input:-ms-input-placeholder {
+     color: #ccc;
+}
+.all-style-paraphrase input::-ms-input-placeholder {
+     color: #ccc;
+}
+.all-style-paraphrase input::placeholder {
+     color: #ccc !important;
+}
+.all-style-paraphrase textarea::-moz-placeholder {
+     color: #ccc;
+}
+.all-style-paraphrase textarea:-ms-input-placeholder {
+     color: #ccc;
+}
+.all-style-paraphrase textarea::-ms-input-placeholder {
+     color: #ccc;
+}
+.all-style-paraphrase textarea::placeholder {
+     color: #ccc !important;   
+     font-size: 14px;
+}
+.all-style-paraphrase .item-title {
+     font-size: 14px;
+}
+.style-input-share input{
+     background-color: #fff;
+     padding-left: 10px;
+     margin-top: 10px;
+}
+.style-share-fb {
+     margin-top: 15px;
+     text-align: center;
+}
+.style-share-fb span{
+     background: #516eab;
+     color: #fff;
+     padding: 10px;
+     height: 35px;
+     line-height: 35px;
+     cursor: pointer;
+}
+.style-share-fb span i{
+     border-right: 1px solid #ccc;
+     height: 35px;
+     line-height: 35px;
+     padding-right: 8px;
+     margin-right: 8px;
+}
+.ios .ios-p-plr-15 {
+     padding-left: 15px;
+     padding-right: 15px;
+}
+.style-tag-ul ul:before{
+     background-color: transparent !important;
+}
+.style-tag-ul ul:after{
+     background-color: transparent !important;
+}
+.style-popup .navbar-inner{
+     background-image: url(images/level-test-bg.faeef65.png) !important;
+}
+.style-popup{
+     background-image: url(images/level-test-bg.faeef65.png) !important;
+}
+.style-popup .page-content{
+     align-items: center;
+     display: inline-flex;
+     width: 100%;
+     padding-top: 0px !important;
+}
+.style-thanh-cong{
+     color: #fff;
+     text-align: center;
+     font-size: 35px;
+     text-transform: uppercase;
+     line-height: 120%;
+     font-weight: bold;
 }
 
 
@@ -113415,6 +113775,123 @@ select {
 }
 
 
+.all-style-paraphrase .assessment:before {
+     border-color: #ccc transparent #ccc transparent;
+}
+.all-style-paraphrase .form-dk-paraphrase {
+     border-radius: 5px;
+     margin: 15px 5px 5px;
+     background-color: #ffffff;
+}
+.all-style-paraphrase .block-title-form {
+     color: #222;
+}
+.all-style-paraphrase .item-title.item-label {
+    color: #222 !important;
+}
+.all-style-paraphrasev .list .item-inner {
+     line-height: 38px;
+}
+.all-style-paraphrase .block-title-form{
+     color: #222 !important;
+}
+.all-style-paraphrase select, input, textarea{
+     color: #222 !important;
+}
+.all-style-paraphrase textarea{
+     border: 1px solid #ccc;
+     padding: 10px;
+     margin-top: 10px;
+     border-radius: 5px;
+     font-size: 14px !important;
+}
+.all-style-paraphrase option{
+     color: #222 !important;
+}
+.all-style-paraphrase input::-moz-placeholder {
+     color: #ccc;
+}
+.all-style-paraphrase input:-ms-input-placeholder {
+     color: #ccc;
+}
+.all-style-paraphrase input::-ms-input-placeholder {
+     color: #ccc;
+}
+.all-style-paraphrase input::placeholder {
+     color: #ccc !important;
+}
+.all-style-paraphrase textarea::-moz-placeholder {
+     color: #ccc;
+}
+.all-style-paraphrase textarea:-ms-input-placeholder {
+     color: #ccc;
+}
+.all-style-paraphrase textarea::-ms-input-placeholder {
+     color: #ccc;
+}
+.all-style-paraphrase textarea::placeholder {
+     color: #ccc !important;   
+     font-size: 14px;
+}
+.all-style-paraphrase .item-title {
+     font-size: 14px;
+}
+.style-input-share input{
+     background-color: #fff;
+     padding-left: 10px;
+     margin-top: 10px;
+}
+.style-share-fb {
+     margin-top: 15px;
+     text-align: center;
+}
+.style-share-fb span{
+     background: #516eab;
+     color: #fff;
+     padding: 10px;
+     height: 35px;
+     line-height: 35px;
+     cursor: pointer;
+}
+.style-share-fb span i{
+     border-right: 1px solid #ccc;
+     height: 35px;
+     line-height: 35px;
+     padding-right: 8px;
+     margin-right: 8px;
+}
+.ios .ios-p-plr-15 {
+     padding-left: 15px;
+     padding-right: 15px;
+}
+.style-tag-ul ul:before{
+     background-color: transparent !important;
+}
+.style-tag-ul ul:after{
+     background-color: transparent !important;
+}
+.style-popup .navbar-inner{
+     background-image: url(images/level-test-bg.faeef65.png) !important;
+}
+.style-popup{
+     background-image: url(images/level-test-bg.faeef65.png) !important;
+}
+.style-popup .page-content{
+     align-items: center;
+     display: inline-flex;
+     width: 100%;
+     padding-top: 0px !important;
+}
+.style-thanh-cong{
+     color: #fff;
+     text-align: center;
+     font-size: 35px;
+     text-transform: uppercase;
+     line-height: 120%;
+     font-weight: bold;
+}
+
+
 .style-bg-page[data-v-36d5ad0c]{
     background-image: url(images/first_screen_bg.f671e1b.jpg) !important;
     background-position: top center !important;
@@ -113462,5 +113939,122 @@ select {
 .sty-title[data-v-1346d27e]{
         font-size: 23px;
 }
+}
+
+
+.all-style-paraphrase .assessment:before {
+     border-color: #ccc transparent #ccc transparent;
+}
+.all-style-paraphrase .form-dk-paraphrase {
+     border-radius: 5px;
+     margin: 15px 5px 5px;
+     background-color: #ffffff;
+}
+.all-style-paraphrase .block-title-form {
+     color: #222;
+}
+.all-style-paraphrase .item-title.item-label {
+    color: #222 !important;
+}
+.all-style-paraphrasev .list .item-inner {
+     line-height: 38px;
+}
+.all-style-paraphrase .block-title-form{
+     color: #222 !important;
+}
+.all-style-paraphrase select, input, textarea{
+     color: #222 !important;
+}
+.all-style-paraphrase textarea{
+     border: 1px solid #ccc;
+     padding: 10px;
+     margin-top: 10px;
+     border-radius: 5px;
+     font-size: 14px !important;
+}
+.all-style-paraphrase option{
+     color: #222 !important;
+}
+.all-style-paraphrase input::-moz-placeholder {
+     color: #ccc;
+}
+.all-style-paraphrase input:-ms-input-placeholder {
+     color: #ccc;
+}
+.all-style-paraphrase input::-ms-input-placeholder {
+     color: #ccc;
+}
+.all-style-paraphrase input::placeholder {
+     color: #ccc !important;
+}
+.all-style-paraphrase textarea::-moz-placeholder {
+     color: #ccc;
+}
+.all-style-paraphrase textarea:-ms-input-placeholder {
+     color: #ccc;
+}
+.all-style-paraphrase textarea::-ms-input-placeholder {
+     color: #ccc;
+}
+.all-style-paraphrase textarea::placeholder {
+     color: #ccc !important;   
+     font-size: 14px;
+}
+.all-style-paraphrase .item-title {
+     font-size: 14px;
+}
+.style-input-share input{
+     background-color: #fff;
+     padding-left: 10px;
+     margin-top: 10px;
+}
+.style-share-fb {
+     margin-top: 15px;
+     text-align: center;
+}
+.style-share-fb span{
+     background: #516eab;
+     color: #fff;
+     padding: 10px;
+     height: 35px;
+     line-height: 35px;
+     cursor: pointer;
+}
+.style-share-fb span i{
+     border-right: 1px solid #ccc;
+     height: 35px;
+     line-height: 35px;
+     padding-right: 8px;
+     margin-right: 8px;
+}
+.ios .ios-p-plr-15 {
+     padding-left: 15px;
+     padding-right: 15px;
+}
+.style-tag-ul ul:before{
+     background-color: transparent !important;
+}
+.style-tag-ul ul:after{
+     background-color: transparent !important;
+}
+.style-popup .navbar-inner{
+     background-image: url(images/level-test-bg.faeef65.png) !important;
+}
+.style-popup{
+     background-image: url(images/level-test-bg.faeef65.png) !important;
+}
+.style-popup .page-content{
+     align-items: center;
+     display: inline-flex;
+     width: 100%;
+     padding-top: 0px !important;
+}
+.style-thanh-cong{
+     color: #fff;
+     text-align: center;
+     font-size: 35px;
+     text-transform: uppercase;
+     line-height: 120%;
+     font-weight: bold;
 }
 
