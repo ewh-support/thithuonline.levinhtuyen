@@ -112765,10 +112765,11 @@ select {
     border-radius: 5px;
 }
 .ps_what--container {
-    margin: 0 auto !important;
+    margin-left: auto !important;
     max-width: 1200px;
     position: relative;
     margin-bottom: 0px !important;
+    margin-right: auto !important;
 }
 .style-vh{
     border: 2px solid #fff;
@@ -113089,6 +113090,20 @@ select {
      text-transform: uppercase;
      line-height: 120%;
      font-weight: bold;
+}
+
+
+.style-back-link .navbar-inner{
+    background-image: url(images/level-test-bg.faeef65.png) !important;
+    background-position: center center !important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+}
+.bt_tit_true_answer {
+    background: rgba(255, 255, 255, 0.15);
+    margin-top: 35px !important;
+    padding-bottom: 30px !important;
+    padding-top: 20px !important;
 }
 
 
