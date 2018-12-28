@@ -31911,10 +31911,10 @@ select {
                 order: 12;
     }
     .style-bt-prev {
-        margin-right: 0;
+        margin-left: 0;
     }
     .style-bt-next{
-        margin-left: 0;
+        margin-right: 0;
     }
     .style-box-ch{
         margin-top: 20px;
