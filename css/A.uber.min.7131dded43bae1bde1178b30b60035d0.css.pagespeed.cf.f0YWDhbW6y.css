@@ -6004,7 +6004,7 @@ pre.code-snippet:before{content:"";background:linear-gradient(90deg,#f15b2a,#e80
 .browse-hero .row{margin-top:0;padding:40px 0}
 .browse-hero .category-colors .colorblock{width:33%;height:100%;float:left}
 .browse-hero .category-colors .colorblock:first-child{width:34%}
-.browse-hero .block-content{padding:0 50px;background:url("https://www.pluralsight.com/content/dam/pluralsight2/general/browse/browse-header.jpg");background-size:cover;background-position:center}
+.browse-hero .block-content{padding:0 50px;background:url("/img/browse-header.jpg");background-size:cover;background-position:center}
 .browse-hero .button{line-height:1.4;white-space:normal;max-width:250px}
 .browse-hero .video-name p{float:left;margin-top:18px;font-size:26px;font-weight:400;margin-left:18px;text-align:left;color:white;max-width:70%}
 .browse-hero .video-name img{float:left;width:70px;height:70px}

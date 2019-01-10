@@ -28776,7 +28776,7 @@ pre.code-snippet:before {
 	background: linear-gradient(to right, #f15b2a, #e80a89)
 }
 .brw_hero--device {
-	background: url(https://www.pluralsight.com/content/dam/pluralsight2/product/business_platform/xps_enterprise--device.png.pagespeed.ic.g7ZAIJYESX.webp);
+	/* background: url(https://www.pluralsight.com/content/dam/pluralsight2/product/business_platform/xps_enterprise--device.png.pagespeed.ic.g7ZAIJYESX.webp); */
 	background-size: cover;
 	height: 182px;
 	margin: -5px auto 0;
@@ -28974,7 +28974,7 @@ pre.code-snippet:before {
 }
 .browse-hero .block-content {
 	padding: 0 50px;
-	background: url(https://www.pluralsight.com/content/dam/pluralsight2/general/browse/xbrowse-header.jpg.pagespeed.ic.obWivf5egr.webp);
+	background: url(/content/browse-header.jpg);
 	background-size: cover;
 	background-position: center
 }
