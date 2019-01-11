@@ -2292,3 +2292,37 @@ html {
 .mktoButtonWrap button:hover {
     background: #f96816;
 }
+.box1{
+    position: relative;
+    margin: 0 !important;
+    padding: 0 !important;
+
+}
+.box2{
+    position: absolute;
+    float: right;
+    left: 100px;
+    top: 34px;
+    
+}
+.box3{
+    position: absolute;
+    bottom: 96px !important;
+    left: 55px !important;
+    text-transform: uppercase !important;
+    font-size: 12px !important;
+    color: #999 !important;
+    
+}
+.box4{
+    position: absolute;
+    bottom: 50px;
+    left: 10px;
+    
+}
+.box5{
+    bottom: 10px;
+    position: absolute;
+    right: 10px;
+    
+}
