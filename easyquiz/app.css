@@ -31176,6 +31176,7 @@ hr {
     height: auto;
     display: block;
     margin: 0 !important;
+    border-top: 3px solid #ef552d;
 }
 .pd-t-15 {
     padding-top: 15px;
@@ -31204,12 +31205,13 @@ img {
 .style-card .card-header {
     -webkit-justify-content: center;
     justify-content: center;
-    text-transform: uppercase;
     font-weight: bold;
     color: #fff;
     font-size: 15px;
     padding: 0;
     min-height: 30px;
+    text-align: center;
+    display: block;
 }
 .style-card .card-footer {
     -webkit-justify-content: center;
@@ -31901,13 +31903,16 @@ select {
     float: left;
 }
 .demo-facebook-name {
-    margin-left: 44px;
+    margin-left: 60px;
     font-size: 14px;
-    font-weight: 500;
+    font-weight: bold;
+    color: #fff;
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
 .demo-facebook-date {
-    margin-left: 44px;
-    font-size: 13px;
+    margin-left: 60px;
+    font-size: 12px;
     color: #8e8e93;
 }
 .limit-text{
@@ -31921,6 +31926,15 @@ select {
 .style-box-fb{
     border-bottom: 1px solid #fff;
 }
+.style-card .card-header:after {
+    background-color: transparent !important;
+}
+.vue-star-rating-rating-text{
+    display: none;
+}
+/* .style-card .card-footer:before {
+    background-color: transparent !important;
+} */
 @media only screen and (min-width:1025px) {
     .set-height {
         height: 85px !important;
