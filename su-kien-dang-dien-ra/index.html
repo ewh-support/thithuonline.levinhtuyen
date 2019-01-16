@@ -166,8 +166,8 @@ if(document.cookie.indexOf("ps_trk=1")>-1){var s=document.createElement("script"
             if (!results[2]) return '';
             return decodeURIComponent(results[2].replace(/\+/g, " "));
         }
-        var appHost = (window.location.host == "www-stage.pluralsight.com") ? "https://app-stage.pluralsight.com" :
-            "https://app.pluralsight.com";
+        var appHost = (window.location.host == "www-stage.pluralsight.com") ? "https://app-kiemtraonline.edu.vn" :
+            "https://app.kiemtraonline.edu.vn";
         var pagePath = window.location.pathname;
         var redirectPath = "";
         var appRedirectTag = document.head.querySelector("[name~='appRedirectPath'][content]");
@@ -182,9 +182,9 @@ if(document.cookie.indexOf("ps_trk=1")>-1){var s=document.createElement("script"
                 }
             }
             if ((document.cookie.indexOf("www-status-production=") > -1 && document.cookie.indexOf("midCheckout") == -1 &&
-                    window.location.host == "www.pluralsight.com") || (document.cookie.indexOf("www-status-staging=") >
+                    window.location.host == "www.kiemtraonline.edu.vn") || (document.cookie.indexOf("www-status-staging=") >
                     -1 && document.cookie.indexOf("midCheckout") == -1 && window.location.host ==
-                    "www-stage.pluralsight.com")) {
+                    "www-stage.kiemtraonline.edu.vn")) {
                 var aidParam = getParameterByName("aid");
                 var vidParam = getParameterByName("vid");
                 var paramsString = "";
