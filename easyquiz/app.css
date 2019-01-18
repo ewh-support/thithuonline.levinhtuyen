@@ -31915,13 +31915,15 @@ select {
     font-size: 12px;
     color: #8e8e93;
 }
-.limit-text{
+.limit-text p{
     display: -webkit-box;
     line-height: 24px;
     -webkit-line-clamp: 3;
     -webkit-box-orient: vertical;
     overflow: hidden;
     text-overflow: ellipsis;
+    margin: 0;
+    font-size: 14px !important;
 }
 .style-box-fb{
     border-bottom: 1px solid #fff;
