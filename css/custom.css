@@ -2326,3 +2326,20 @@ html {
     right: 10px;
     
 }
+.title1{
+    margin-top: 10px !important;
+}
+
+.tentrungtam{
+    top:0;
+    left:0;
+}
+@media screen and (max-width:450px) {
+    .tentrungtam{
+        top: -55px !important;
+        left: 115px !important;
+    }
+    .proserve_tabs label {
+        line-height: 35px !important;
+    }
+}
