@@ -31378,14 +31378,18 @@ img {
 .float-right {
     float: right !important;
 }
+.style-bt-next{
+   margin-right: 0px;
+   float: right;
+}
+.style-bt-prev{
+    margin-left: 0px;
+}
 .style-bt-next,
 .style-bt-prev {
     width: 64px;
     font-size: 12px;
     font-weight: bold;
-}
-.style-bt-prev{
-    margin-left: auto;
 }
 .style-list-bt {
     cursor: pointer;
@@ -31401,6 +31405,7 @@ img {
     margin: 5px;
     line-height: 25px !important;
     min-width: 25px !important;
+    margin-top: 0px;
 
 }
 .mg-t-20 {
@@ -31531,6 +31536,12 @@ select {
 .ios label.item-radio input[type="radio"] ~ .icon-radio {
     border: 1px solid;
 }
+.ios label.item-radio input[type="radio"] ~ .icon-radio {
+    position: static !important;
+    margin-top: 0 !important;
+    margin-right: 15px;
+
+}
 .ios .block {
     margin-top: 0;
 }
@@ -31556,9 +31567,6 @@ select {
 .md label.item-radio > .icon-radio {
     margin-right: 15px;
     border-color: #ccc;
-}
-.ios .tag-group-list .item-inner {
-    margin-left: 35px;
 }
 .style-mt {
     font-size: 17px;
@@ -31767,7 +31775,7 @@ select {
     margin: 0 auto !important;
 }
 .style-img-logo {
-    width: 50px;
+    width: 100%;
     display: inline-block;
     vertical-align: middle;
     margin-right: 6px;
@@ -31797,6 +31805,11 @@ select {
     border-left: solid 10px #4cba72;
     padding-left: 10px;
     display: inline-flex;
+    /* position: fixed;
+    right: 22%;
+    z-index: 9999;
+    bottom: 25%;
+    text-align: center; */
 }
 .justify-content-flex-end {
     -webkit-box-pack: end!important;
@@ -31881,7 +31894,7 @@ select {
 .style-box-number {
     position: relative;
 }
-.style-box-number:before {
+/* .style-box-number:before {
     content: '';
     position: absolute;
     width: 100%;
@@ -31889,7 +31902,7 @@ select {
     background: linear-gradient(to left,#ff7b39,#eb2a89);
     top: 0;
     left: 0;
-}
+} */
 .block > .style-back-link {
     display: none;
 }
@@ -31988,15 +32001,29 @@ select {
 .bg-color-red {
     border-radius: 5px;
 }
-
+.navbar-inner.sliding .title{
+    left: 0 !important;
+}
+/* .style-line-time{
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 15px;
+    padding-bottom: 5px;
+} */
+.ios .height-bt{
+    height: 35px;
+    line-height: 35px;
+}
 @media only screen and (min-width:1025px) {
     .set-height {
-        height: 85px !important;
+        height: 70px !important;
     }
 }
 @media only screen and (max-width: 1024px) {
     .set-height {
-        height: 75px !important;
+        height: 55px !important;
+    }
+    .p-mt-85-i {
+        margin-top: 54px !important;
     }
 }
 @media (max-width: 768px) {
@@ -32016,9 +32043,9 @@ select {
     .style-bt-next {
         margin-right: 0;
     }
-    .style-box-ch {
+    /* .style-box-ch {
         padding-top: 15px;
-    }
+    } */
 }
 
 @media (max-width: 576px) {
@@ -33955,33 +33982,6 @@ select {
 
 
 
-.style-popup-tk[data-v-6642bc8e]{
-    background: #fff;
-}
-.style-popup-tk .navbar[data-v-6642bc8e]:after {
-    background: #00bf6f !important;
-}
-.style-popup-tk .box-icon[data-v-6642bc8e]{
-    background: #00bf6f;
-    padding: 30px !important;
-}
-.fix-popup[data-v-6642bc8e]{
-    max-width: 480px;
-    max-height: 480px;
-    right: 0;
-    margin: auto;
-    bottom: 0;
-    top: 0;
-    left: 0;
-}
-.style-text-tk[data-v-6642bc8e]{
-    padding-top: 50px;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.12);
-    color:  #00bf6f;
-    font-size: 25px;
-}
-
-
 .all-style-paraphrase .assessment:before {
      border-color: #ccc transparent #ccc transparent;
 }
@@ -34077,5 +34077,32 @@ select {
 }
 .style-tag-ul ul:after{
      background-color: transparent !important;
+}
+
+
+.style-popup-tk[data-v-496f2126]{
+    background: #fff;
+}
+.style-popup-tk .navbar[data-v-496f2126]:after {
+    background: #00bf6f !important;
+}
+.style-popup-tk .box-icon[data-v-496f2126]{
+    background: #00bf6f;
+    padding: 30px !important;
+}
+.fix-popup[data-v-496f2126]{
+    max-width: 480px;
+    max-height: 480px;
+    right: 0;
+    margin: auto;
+    bottom: 0;
+    top: 0;
+    left: 0;
+}
+.style-text-tk[data-v-496f2126]{
+    padding-top: 50px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.12);
+    color:  #00bf6f;
+    font-size: 25px;
 }
 
