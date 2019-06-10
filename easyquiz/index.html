@@ -1,49 +1,10 @@
-<!DOCTYPE html>
-<html class="">
-    <head>
-        <meta charset="utf-8">
-        <!--
-  Customize this policy to fit your own app's needs. For more guidance, see:
-      https://github.com/apache/cordova-plugin-whitelist/blob/master/README.md#content-security-policy
-  Some notes:
-      * gap: is required only on iOS (when using UIWebView) and is needed for JS->native communication
-      * https://ssl.gstatic.com is required only on Android and is needed for TalkBack to function properly
-      * Disables use of inline scripts in order to mitigate risk of XSS vulnerabilities. To change this:
-          * Enable inline JS: add 'unsafe-inline' to default-src
-  -->
-        <meta
-            http-equiv="Content-Security-Policy"
-            content="default-src * 'self' 'unsafe-inline' 'unsafe-eval' data: gap: content:">
-        <meta
-            name="viewport"
-            content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, minimal-ui, viewport-fit=cover">
-        <meta name="apple-mobile-web-app-capable" content="yes">
-        <meta name="apple-mobile-web-app-status-bar-style" content="default">
-        <meta name="theme-color" content="#2196f3">
-        <meta name="format-detection" content="telephone=no">
-        <meta name="msapplication-tap-highlight" content="no">
-        <link rel="shortcut icon" href="http://kiemtraonline.edu.vn/img/favicon.ico" type="image/x-icon">
-        <link
-            rel="stylesheet"
-            href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-        <title>Kiểm tra Online</title>
-        <!-- built style files will be auto injected -->
-    <link href="app.css" rel="stylesheet"></head>
-    <body class="color-theme-pink">
-        <div id="app"></div>
-
-        <!-- Cordova -->
-
-        <!-- <script src="cordova.js"></script> -->
-
-        <!-- built script files will be auto injected -->
-        <script type="text/x-mathjax-config">
-            MathJax.Hub.Config({ tex2jax: { inlineMath: [['$','$'],['\\(','\\)']], } });
-        </script>
-        <script
-            type="text/javascript"
-            async
-            src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-AMS_CHTML"></script>
-
-    <script type="text/javascript" src="app.js"></script></body>
-</html>
+<!DOCTYPE html><html class=""><head><meta charset=utf-8><meta http-equiv=Content-Security-Policy content="default-src * 'self' 'unsafe-inline' 'unsafe-eval' data: gap: content:"><meta name=viewport content="width=device-width,initial-scale=1,maximum-scale=1,minimum-scale=1,user-scalable=no,minimal-ui,viewport-fit=cover"><meta name=apple-mobile-web-app-capable content=yes><meta name=apple-mobile-web-app-status-bar-style content=default><meta name=theme-color content=#2196f3><meta name=format-detection content="telephone=no"><meta name=msapplication-tap-highlight content=no><link rel="shortcut icon" href=http://kiemtraonline.edu.vn/img/favicon.ico type=image/x-icon><link rel=stylesheet href=https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css><link href="https://fonts.googleapis.com/css?family=K2D:400,700&amp;subset=vietnamese" rel=stylesheet><link href="https://fonts.googleapis.com/css?family=Open+Sans:300,600,700|Roboto:300,500,700&amp;subset=vietnamese" rel=stylesheet><title>Hệ thống Easyevent</title><link href=app.css rel=stylesheet></head><body class=color-theme-pink><div id=app></div><script type=text/x-mathjax-config>MathJax.Hub.Config({
+                extensions: ["tex2jax.js"],
+                jax: ["input/TeX", "output/HTML-CSS"],
+                tex2jax: {
+                inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+                displayMath: [ ['$$','$$'], ["\\[","\\]"] ],
+                processEscapes: true
+                },
+                "HTML-CSS": { fonts: ["TeX"] }
+            });</script><script type=text/javascript async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-AMS_CHTML"></script><script type=text/javascript src=app.js></script></body></html>
